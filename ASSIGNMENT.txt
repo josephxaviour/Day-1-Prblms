@@ -1,0 +1,125 @@
+Q1.1)  
+    
+public class Hello
+{
+
+    public static void main(String[] args)
+    {
+
+        System.out.println("Hello");
+    }
+
+}
+
+
+Q1.2)
+
+
+public class DataTypes {
+    public static void main(String[] args) {
+
+    DataTypes ref1 = new DataTypes();
+        
+        byte b = 2;  
+        short s = 3; 
+        int i = 4;  
+        long l = 5; 
+       
+        byte d = i;
+        long x = -2147483649L;
+
+        float f = 3.5F;
+        double d = 6.4;
+
+        char ch = 'T'; 
+
+        char c = '\u0000';
+
+        System.out.println(c);
+
+        boolean flag = true;
+
+        System.out.println(flag);
+        System.out.println(b);
+        System.out.println(s);
+        System.out.println(i);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+        System.out.println(flag);
+        System.out.println(ch);
+
+          }
+
+}
+
+Q 1.3)
+
+      public class stringequalsx{
+    public static void main(string[] args )
+    {
+        string str1="hello";
+        string str2="hello";
+        string str3="hi";
+        system.out.println(str1.equals(str2));
+        system.out.println(str1.equals(str3));
+    }
+}
+
+Q1.4)
+
+public class Basics {
+
+    
+    static int sumOfTwoNumbers(int x,int y){
+        long sum = x + y; // -2147483648
+        return (int)sum;
+    }
+
+
+     public static void main(String[] args) {
+        System.out.println("main starting");
+        int s = sumOfTwoNumbers(-2147483644,-4);
+        System.out.println(s);
+        int result = s * 56;
+        System.out.println(result);
+
+        int s1 = sumOfTwoNumbers(23,14);
+        System.out.println(s1);
+        int result2 = s1%48;
+        System.out.println(result2);
+
+    }
+
+}
+
+Q1.5)
+
+public class main {
+    public static void main(string[] args) {
+        system.out.println(args[0]);
+        system.out.println(args[1]);
+        system.out.println(args[2]);
+    }
+
+}
+
+Q1.7)
+
+public class Main{
+    public static void main (String[]args)
+    {
+
+        int year = 2020;
+
+        if (year % 400 == 0)
+            System.out.println (year + " is a Leap Year");
+
+        else if (year % 4 == 0 && year % 100 != 0)
+            System.out.println (year + " is a Leap Year");
+
+        else
+            System.out.println (year + " is not a Leap Year");
+
+    }
+}
